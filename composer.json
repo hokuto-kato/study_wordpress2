@@ -1,0 +1,25 @@
+{
+  "name": "hokuto/study_wordpress",
+  "description": "This is a WordPress study theme.",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Hokuto\\StudyWordpress\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "hokuto-kato",
+      "email": "hokuto15@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.10",
+    "wp-coding-standards/wpcs": "^3.1"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
